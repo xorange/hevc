@@ -1,0 +1,12 @@
+configure file needed. 
+
+config.mak's PURE_C and config.h's PURE_C_IMPLEMENTED is separate now.
+
+common/rd_cost.c:				i_sum += x265_pixel_hads_8x8_ssse3(&p_0[x],
+common/rd_cost.c:				i_sum += x265_pixel_hads_4x4_ssse3(&p_0[x],
+common/rd_cost.c:		i_sum += x265_pixel_hads_8x8_ssse3(&i_cur[x],
+common/rd_cost.c:  		i_sum += x265_pixel_hads_4x4_ssse3(&i_cur[x],
+common/x86/rd_cost_hads_x86.h:uint32_t x265_pixel_hads_4x4_ssse3(pixel *cur,
+common/x86/rd_cost_hads_x86.h:uint32_t x265_pixel_hads_8x8_ssse3(pixel *cur,
+common/x86/rd_cost_hads_x86.h:uint32_t x265_pixel_hads_32x32_ssse3(pixel *cur,
+

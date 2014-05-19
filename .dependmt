@@ -1,0 +1,1371 @@
+common/common.o: common/common.c common/common.h common/osdep.h config.h \
+ common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/list.o: common/list.c common/common.h common/osdep.h config.h \
+ common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/scan.o: common/scan.c common/common.h common/osdep.h config.h \
+ common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/mv.o: common/mv.c common/common.h common/osdep.h config.h \
+ common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/cpu.o: common/cpu.c common/common.h common/osdep.h config.h \
+ common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/pattern.o: common/pattern.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/bitstream.o: common/bitstream.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/set.o: common/set.c common/common.h common/osdep.h config.h \
+ common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/pic_sym.o: common/pic_sym.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/simage.o: common/simage.c common/common.h common/osdep.h config.h \
+ common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/image.o: common/image.c common/common.h common/osdep.h config.h \
+ common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/frame.o: common/frame.c common/common.h common/osdep.h config.h \
+ common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/mc.o: common/mc.c common/common.h common/osdep.h config.h \
+ common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/slice.o: common/slice.c common/common.h common/osdep.h config.h \
+ common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/rd_cost_weight_prediction.o: common/rd_cost_weight_prediction.c \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/rd_cost.o: common/rd_cost.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h \
+ common/x86/rd_cost_hads_x86.h
+common/transform.o: common/transform.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/tr_quant.o: common/tr_quant.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/rate_dist_opt_quant_ssse3.o: common/rate_dist_opt_quant_ssse3.c \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h common/tr_quant_help.h \
+ common/x86/rdoq_x86.h
+common/loop_filter.o: common/loop_filter.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/motion_info.o: common/motion_info.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/sample_adaptive_offset.o: common/sample_adaptive_offset.c \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/tmvp_data_cu.o: common/tmvp_data_cu.c common/common.h \
+ common/osdep.h config.h common/common_def.h common/type_def.h \
+ encoder/ratecontrol.h common/timer.h common/cpu.h common/simage.h \
+ common/image.h x265.h x265_config.h common/bitstream.h common/yuv.h \
+ common/mv.h common/pattern.h common/set.h common/scan.h common/mc.h \
+ common/list.h common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/base_data_cu.o: common/base_data_cu.c common/common.h \
+ common/osdep.h config.h common/common_def.h common/type_def.h \
+ encoder/ratecontrol.h common/timer.h common/cpu.h common/simage.h \
+ common/image.h x265.h x265_config.h common/bitstream.h common/yuv.h \
+ common/mv.h common/pattern.h common/set.h common/scan.h common/mc.h \
+ common/list.h common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/data_cu.o: common/data_cu.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/weight_prediction.o: common/weight_prediction.c common/common.h \
+ common/osdep.h config.h common/common_def.h common/type_def.h \
+ encoder/ratecontrol.h common/timer.h common/cpu.h common/simage.h \
+ common/image.h x265.h x265_config.h common/bitstream.h common/yuv.h \
+ common/mv.h common/pattern.h common/set.h common/scan.h common/mc.h \
+ common/list.h common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/intra_pred.o: common/intra_pred.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/prediction.o: common/prediction.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/ip.o: common/ip.c common/common.h common/osdep.h config.h \
+ common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/interpolation_filter.o: common/interpolation_filter.c \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+common/x86/timer_test.o: common/x86/timer_test.c common/common.h \
+ common/osdep.h config.h common/common_def.h common/type_def.h \
+ encoder/ratecontrol.h common/timer.h common/cpu.h common/simage.h \
+ common/image.h x265.h x265_config.h common/bitstream.h common/yuv.h \
+ common/mv.h common/pattern.h common/set.h common/scan.h common/mc.h \
+ common/list.h common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h \
+ common/x86/timer_test.h
+encoder/encoder.o: encoder/encoder.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h encoder/set.h \
+ encoder/enc_global.h encoder/enc_top.h encoder/enc_gop.h
+encoder/enc_global.o: encoder/enc_global.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h encoder/enc_global.h
+encoder/enc_top.o: encoder/enc_top.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h encoder/enc_top.h
+encoder/enc_gop.o: encoder/enc_gop.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h encoder/enc_gop.h
+encoder/weight_pred_analysis.o: encoder/weight_pred_analysis.c \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_slice.o: encoder/enc_slice.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_cu.o: encoder/enc_cu.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/set.o: encoder/set.c common/common.h common/osdep.h config.h \
+ common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h encoder/set.h
+encoder/enc_bin_coder.o: encoder/enc_bin_coder.c common/common.h \
+ common/osdep.h config.h common/common_def.h common/type_def.h \
+ encoder/ratecontrol.h common/timer.h common/cpu.h common/simage.h \
+ common/image.h x265.h x265_config.h common/bitstream.h common/yuv.h \
+ common/mv.h common/pattern.h common/set.h common/scan.h common/mc.h \
+ common/list.h common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_bin_coder_cabac.o: encoder/enc_bin_coder_cabac.c \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_bin_coder_cabac_counter.o: \
+ encoder/enc_bin_coder_cabac_counter.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_sbac.o: encoder/enc_sbac.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_cavlc.o: encoder/enc_cavlc.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_entropy_if.o: encoder/enc_entropy_if.c common/common.h \
+ common/osdep.h config.h common/common_def.h common/type_def.h \
+ encoder/ratecontrol.h common/timer.h common/cpu.h common/simage.h \
+ common/image.h x265.h x265_config.h common/bitstream.h common/yuv.h \
+ common/mv.h common/pattern.h common/set.h common/scan.h common/mc.h \
+ common/list.h common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_entropy.o: encoder/enc_entropy.c common/common.h \
+ common/osdep.h config.h common/common_def.h common/type_def.h \
+ encoder/ratecontrol.h common/timer.h common/cpu.h common/simage.h \
+ common/image.h x265.h x265_config.h common/bitstream.h common/yuv.h \
+ common/mv.h common/pattern.h common/set.h common/scan.h common/mc.h \
+ common/list.h common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_search_i.o: encoder/enc_search_i.c common/common.h \
+ common/osdep.h config.h common/common_def.h common/type_def.h \
+ encoder/ratecontrol.h common/timer.h common/cpu.h common/simage.h \
+ common/image.h x265.h x265_config.h common/bitstream.h common/yuv.h \
+ common/mv.h common/pattern.h common/set.h common/scan.h common/mc.h \
+ common/list.h common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_search_pb_one.o: encoder/enc_search_pb_one.c common/common.h \
+ common/osdep.h config.h common/common_def.h common/type_def.h \
+ encoder/ratecontrol.h common/timer.h common/cpu.h common/simage.h \
+ common/image.h x265.h x265_config.h common/bitstream.h common/yuv.h \
+ common/mv.h common/pattern.h common/set.h common/scan.h common/mc.h \
+ common/list.h common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_search_pb_two.o: encoder/enc_search_pb_two.c common/common.h \
+ common/osdep.h config.h common/common_def.h common/type_def.h \
+ encoder/ratecontrol.h common/timer.h common/cpu.h common/simage.h \
+ common/image.h x265.h x265_config.h common/bitstream.h common/yuv.h \
+ common/mv.h common/pattern.h common/set.h common/scan.h common/mc.h \
+ common/list.h common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_sample_adaptive_offset.o: \
+ encoder/enc_sample_adaptive_offset.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_preanalyzer.o: encoder/enc_preanalyzer.c common/common.h \
+ common/osdep.h config.h common/common_def.h common/type_def.h \
+ encoder/ratecontrol.h common/timer.h common/cpu.h common/simage.h \
+ common/image.h x265.h x265_config.h common/bitstream.h common/yuv.h \
+ common/mv.h common/pattern.h common/set.h common/scan.h common/mc.h \
+ common/list.h common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_analyze.o: encoder/enc_analyze.c common/common.h \
+ common/osdep.h config.h common/common_def.h common/type_def.h \
+ encoder/ratecontrol.h common/timer.h common/cpu.h common/simage.h \
+ common/image.h x265.h x265_config.h common/bitstream.h common/yuv.h \
+ common/mv.h common/pattern.h common/set.h common/scan.h common/mc.h \
+ common/list.h common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+encoder/enc_rate_ctrl.o: encoder/enc_rate_ctrl.c common/common.h \
+ common/osdep.h config.h common/common_def.h common/type_def.h \
+ encoder/ratecontrol.h common/timer.h common/cpu.h common/simage.h \
+ common/image.h x265.h x265_config.h common/bitstream.h common/yuv.h \
+ common/mv.h common/pattern.h common/set.h common/scan.h common/mc.h \
+ common/list.h common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+x265.o: x265.c common/common.h common/osdep.h config.h \
+ common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h x265cli.h \
+ frame_input/frame_input.h x265cli.h frame_output/frame_output.h \
+ frame_input/frame_input.h input_filters/input_filters.h \
+ output_filters/output_filters.h frame_output/frame_output.h \
+ bitstream_output/bitstream_output.h common/x86/mb8_x86.h
+config_file_parser.o: config_file_parser.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+print_parameters.o: print_parameters.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+check_parameters.o: check_parameters.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+low_delay_config.o: low_delay_config.c common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+frame_input/raw.o: frame_input/raw.c frame_input/frame_input.h x265cli.h \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+frame_input/frame_input.o: frame_input/frame_input.c \
+ frame_input/frame_input.h x265cli.h common/common.h common/osdep.h \
+ config.h common/common_def.h common/type_def.h encoder/ratecontrol.h \
+ common/timer.h common/cpu.h common/simage.h common/image.h x265.h \
+ x265_config.h common/bitstream.h common/yuv.h common/mv.h \
+ common/pattern.h common/set.h common/scan.h common/mc.h common/list.h \
+ common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+frame_output/raw.o: frame_output/raw.c frame_output/frame_output.h \
+ x265cli.h common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h \
+ frame_input/frame_input.h
+bitstream_output/raw.o: bitstream_output/raw.c \
+ bitstream_output/bitstream_output.h x265cli.h common/common.h \
+ common/osdep.h config.h common/common_def.h common/type_def.h \
+ encoder/ratecontrol.h common/timer.h common/cpu.h common/simage.h \
+ common/image.h x265.h x265_config.h common/bitstream.h common/yuv.h \
+ common/mv.h common/pattern.h common/set.h common/scan.h common/mc.h \
+ common/list.h common/slice.h common/motion_info.h common/base_data_cu.h \
+ common/data_cu.h common/tmvp_data_cu.h common/pic_yuv.h common/pic_sym.h \
+ common/pic.h common/frame.h common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+input_filters/input_filters.o: input_filters/input_filters.c \
+ input_filters/input_filters.h frame_input/frame_input.h x265cli.h \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+input_filters/source.o: input_filters/source.c \
+ input_filters/input_filters.h frame_input/frame_input.h x265cli.h \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+input_filters/resize.o: input_filters/resize.c \
+ input_filters/input_filters.h frame_input/frame_input.h x265cli.h \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+input_filters/depth.o: input_filters/depth.c \
+ input_filters/input_filters.h frame_input/frame_input.h x265cli.h \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h
+output_filters/output_filters.o: output_filters/output_filters.c \
+ output_filters/output_filters.h frame_output/frame_output.h x265cli.h \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h \
+ frame_input/frame_input.h
+output_filters/source.o: output_filters/source.c \
+ output_filters/output_filters.h frame_output/frame_output.h x265cli.h \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h \
+ frame_input/frame_input.h
+output_filters/resize.o: output_filters/resize.c \
+ output_filters/output_filters.h frame_output/frame_output.h x265cli.h \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h \
+ frame_input/frame_input.h
+output_filters/depth.o: output_filters/depth.c \
+ output_filters/output_filters.h frame_output/frame_output.h x265cli.h \
+ common/common.h common/osdep.h config.h common/common_def.h \
+ common/type_def.h encoder/ratecontrol.h common/timer.h common/cpu.h \
+ common/simage.h common/image.h x265.h x265_config.h common/bitstream.h \
+ common/yuv.h common/mv.h common/pattern.h common/set.h common/scan.h \
+ common/mc.h common/list.h common/slice.h common/motion_info.h \
+ common/base_data_cu.h common/data_cu.h common/tmvp_data_cu.h \
+ common/pic_yuv.h common/pic_sym.h common/pic.h common/frame.h \
+ common/context_tables.h common/rd_cost.h \
+ common/rd_cost_weight_prediction.h common/tr_quant.h common/transform.h \
+ common/loop_filter.h common/interpolation_filter.h common/ip.h \
+ common/weight_prediction.h common/prediction.h common/intra_pred.h \
+ encoder/enc_top.h encoder/enc_bin_coder.h common/context_model.h \
+ common/bitstream.h encoder/enc_bin_coder_cabac.h \
+ encoder/enc_bin_coder_cabac_counter.h encoder/enc_entropy.h \
+ encoder/enc_entropy_if.h encoder/enc_cavlc.h encoder/enc_sbac.h \
+ encoder/enc_gop.h encoder/enc_analyze.h encoder/enc_search.h \
+ encoder/enc_sample_adaptive_offset.h common/sample_adaptive_offset.h \
+ encoder/enc_slice.h encoder/weight_pred_analysis.h encoder/enc_cu.h \
+ encoder/enc_preanalyzer.h encoder/enc_rate_ctrl.h \
+ frame_input/frame_input.h
